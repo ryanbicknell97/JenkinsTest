@@ -2,11 +2,12 @@
 using System.Collections;
 
 public class Cube : MonoBehaviour {
+    public string s;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         object m = null;
-        string s = m.ToString();
+        s = m.ToString();
     }
 	
 	// Update is called once per frame
